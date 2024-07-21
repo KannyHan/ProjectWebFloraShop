@@ -7,18 +7,14 @@ body{
     background-attachment: fixed;
 }
 
-.bodyshop{
-    width: 100%;
-    background-color: rgb(11, 189, 118);
-}
-
-.bodyshop a{
+body a{
     text-decoration: none;
 }
 
 .TabBarShop{
     display: flex;
     align-items: center;
+    background-color: rgb(11, 189, 118);
 }
 
 .TabBarShop p {
