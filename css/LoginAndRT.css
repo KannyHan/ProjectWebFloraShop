@@ -5,6 +5,16 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
+i {
+    color: aliceblue; 
+    font-size: 45px; 
+    margin-left: 95%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+i:hover {
+    color: chartreuse;
+}
 
 .bodyLogin{
     width: 35%;
@@ -12,6 +22,9 @@ body{
     margin-right: auto;
     text-align: center;
     margin-top: 60px;
+    background-color: rgba(0, 142, 75, 0.915);
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .bodyLogin p {
@@ -26,6 +39,7 @@ body{
 
 .bodyLogin form {
     display: grid;
+    margin-bottom: 20px;
 }
 
 .bodyLogin input {
